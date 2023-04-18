@@ -1,0 +1,33 @@
+.header {
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5em;
+    line-height: 0.8em;
+    padding: 0.5em 0;
+}
+.header span:first-child {
+    margin-left: -2px;
+}
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1040px;
+    font-family: sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-link-item {
+    padding: 0 1rem;
+}
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
