@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid grey;
+    display: flex;
+    width: min-content;
+}
+    
+.input {
+    border: 0;
+    width: 300px;
+    padding: 15px 15px 15px 50px;
+}
+
+.button {
+    border: 0;
+    border-left: 1px solid grey;
+    width: 100px;
+}
