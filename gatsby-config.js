@@ -6,5 +6,19 @@ module.exports = {
     title: `Home`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets/,
+          options: {
+            props: {
+              className: "icon",
+            },
+          }
+        }
+      }
+    }
+  ],
 }

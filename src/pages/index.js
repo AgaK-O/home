@@ -1,9 +1,7 @@
-// Step 1: Import React
 import * as React from 'react'
 import '../components/index.css'
 import Layout from '../components/layout/layout';
 
-// Step 2: Define your component
 const IndexPage = () => {
   return (
     <Layout pageTitle={'hello, world'}>
@@ -12,7 +10,6 @@ const IndexPage = () => {
   )
 }
 
-// You'll learn about this in the next task, just copy it for now
 export const Head = () => (
 <>
   <title>Home</title>
@@ -22,5 +19,4 @@ export const Head = () => (
 </>
 )
 
-// Step 3: Export your component
 export default IndexPage;
