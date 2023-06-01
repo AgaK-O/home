@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {ImageSearch} from '../components/molecules/fetch-images'
+import {ImageSearch} from '../components/molecules/giphy-grid/fetch-images'
 
 
 const Examples = () => {
